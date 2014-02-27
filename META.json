@@ -1,46 +1,42 @@
 {
-   "abstract" : "Extends Path::Iterator::Rule with custom rule subroutines that make it easy to add RT ticket data as rules.",
+   "abstract" : "unknown",
    "author" : [
-      "Robert Blackwell <robert@robertblackwell.com>"
+      "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132140",
+   "generated_by" : "ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.120921",
    "license" : [
-      "artistic_2"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
    "name" : "Path-Iterator-Rule-RT",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "RT::Client::REST" : "0.45"
+            "RT::Client::REST" : "0.45",
+            "Test::More" : "0"
          }
       }
    },
-   "provides" : {
-      "Path::Iterator::Rule::RT" : {
-         "file" : "lib/Path/Iterator/Rule/RT.pm",
-         "version" : "0.01"
-      }
-   },
    "release_status" : "stable",
-   "resources" : {
-      "license" : [
-         "http://www.perlfoundation.org/artistic_license_2_0"
-      ]
-   },
-   "version" : "0.01"
+   "version" : "0.02"
 }

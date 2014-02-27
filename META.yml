@@ -1,24 +1,23 @@
 ---
-abstract: 'Extends Path::Iterator::Rule with custom rule subroutines that make it easy to add RT ticket data as rules.'
+abstract: unknown
 author:
-  - 'Robert Blackwell <robert@robertblackwell.com>'
+  - unknown
 build_requires:
-  Test::More: 0
+  ExtUtils::MakeMaker: 0
 configure_requires:
-  Module::Build: 0
+  ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132140'
-license: artistic_2
+generated_by: 'ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.120921'
+license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Path-Iterator-Rule-RT
-provides:
-  Path::Iterator::Rule::RT:
-    file: lib/Path/Iterator/Rule/RT.pm
-    version: 0.01
+no_index:
+  directory:
+    - t
+    - inc
 requires:
   RT::Client::REST: 0.45
-resources:
-  license: http://www.perlfoundation.org/artistic_license_2_0
-version: 0.01
+  Test::More: 0
+version: 0.02
