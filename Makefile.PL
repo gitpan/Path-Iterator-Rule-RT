@@ -9,6 +9,7 @@ WriteMakefile
   'VERSION_FROM' => 'lib/Path/Iterator/Rule/RT.pm',
   'PREREQ_PM' => {
                    'Test::More' => 0,
+                   'Path::Iterator::Rule' => '1.008',
                    'RT::Client::REST' => '0.45'
                  }
 )
