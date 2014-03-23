@@ -5,7 +5,7 @@ use Module::Build;
 
 my $builder = Module::Build->new(
     module_name         => 'Path::Iterator::Rule::RT',
-    license             => 'Artistic_2_0',
+    license             => 'artistic_2',
     dist_author         => q{Robert Blackwell <robert@robertblackwell.com>},
     dist_version_from   => 'lib/Path/Iterator/Rule/RT.pm',
     configure_requires => {
